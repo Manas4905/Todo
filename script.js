@@ -147,7 +147,6 @@ function buildItem(task) {
   li.querySelector(".delete-btn").addEventListener("click", () =>
     deleteTask(task.id),
   );
-
   return li;
 }
 
@@ -161,7 +160,6 @@ function escapeHTML(str) {
 
 function render() {
   const visible = filtered();
-
   const done = tasks.filter((t) => t.completed).length;
   const remaining = tasks.length - done;
   totalEl.textContent = tasks.length;
