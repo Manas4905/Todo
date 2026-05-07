@@ -297,7 +297,6 @@ h1 em {
     transform var(--transition),
     opacity var(--transition),
     background var(--transition);
-  animation: slideIn 0.6s ease;
   position: relative;
   overflow: hidden;
 }
